@@ -36,12 +36,12 @@ footer{
 @media screen and(min-width:641px){
     aside{
         width: calc(50% - 20px);
-        float: left;
+        float:left;
     }
     #side:after{
-        content: "";
-        display: block;
-        clear: both;
+        content:"";
+        display:block;
+        clear:both;
     }
 }
 
@@ -52,18 +52,18 @@ footer{
     }
     section{
         width: calc(70% - 20px);
-        float: left;
+        float:left;
     }
     #side{
         width: calc(1024px - 718px);
-        float: left;
+        float:left;
     }
     aside{
         width: calc(100% - 20px);
     }
     #main:after{
-        content: "";
-        display: block;
-        clear: both;
+        content:"";
+        display:block;
+        clear:both;
     }
 }
