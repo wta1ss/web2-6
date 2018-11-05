@@ -1,1 +1,33 @@
-a
+@charset "utf-8";
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+}
+
+section{
+    padding: 10px;
+    background-color: orange;
+}
+
+aside{
+    padding: 10px;
+    background-color: blue;
+}
+
+footer{
+    padding: 10px;
+    background-color: blue;
+    text-align: center;
+}
